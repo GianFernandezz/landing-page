@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>LandingPage</title>
+  <meta name="title" content="LandingPage">
+  <meta name="description" content="#">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="#" type="#">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/test.png">
+  <link rel="preload" as="image" href="./assets/images/slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/slider-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/iteprevengo-software.png" width="200" height="24" alt="ItePrevengo">
+
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/iteprevengo-software.png" width="160" height="24" alt="ItePrevengo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Beneficios</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:iconsultas@iteprevengo.com" class="contact-link">consultas@iteprevengo.com</a>
+
+          <a href="tel:014800947" class="contact-link">(01) 480 0947</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Contáctanos</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/test.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, velit dicta veritatis voluptatum aut!
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Más información</a>
+
+              <!-- <a href="#" class="btn btn-outline">Contact Us</a> -->
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/slider-1.jpg" width="575" height="550" alt="" class="img-cover">
+                    </figure>
+  
+                    <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                        <!-- AQUI PONER LOS VIDEOS A REEPRODUCIR. -->
+                        
+                    </button>
+                    <div class="modal-bg"></div>
+                  </div>
+                  <!-- <div class="modal-bg"></div> -->
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/slider-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      <!-- AQUI PONER LOS VIDEOS A REEPRODUCIR. -->
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/slider-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/banner1.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Pregunta?</p>
+
+            <h2 class="h2 section-title">
+              Lorem ipsum dolor sit amet, consectetur elit.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Objetivo</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatum quasi. Deserunt consequatur illum quis?
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Objetivo</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatum quasi. Deserunt consequatur illum quis?
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Objetivo</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatum quasi. Deserunt consequatur illum quis?
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/banner2.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Beneficios</p>
+
+            <h2 class="h2 section-title">
+              Quisque dapibus risus at magna lobortis, vitae cursus erat consectetur.
+            </h2>
+
+            <p class="section-text">
+              Duis neque ligula, tincidunt consequat fermentum sed, maximus nec ex. Cras sit amet interdum augue.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Nuestros beneficios
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Nuestros beneficios
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Nuestros beneficios
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Nuestros beneficios
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Quisque dapibus risus at magna lobortis, vitae  consectetur.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Más informacón</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/iteprevengo-software.png" width="200" height="24" alt="ItePrevengo">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 ItePrevengo. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Hablemos</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Ubicacíon
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:consultas@iteprevengo.com" class="footer-link">consultas@iteprevengo.com</a>
+        </li>
+
+        <li>
+          <a href="tel:014800947" class="footer-link">
+            (01) 480 0947</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Link</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Link</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Link</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Link</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <!-- <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form> -->
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
