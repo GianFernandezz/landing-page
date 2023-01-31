@@ -146,18 +146,16 @@ for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordion
  * Video
  */
 
-// Get elements from the DOM
+
 const modalBtn = document.querySelector('.play-btn');
 const modal = document.querySelector('.modal-bg');
 
-// Add click event to the button
+
 modalBtn.addEventListener('click', () => {
-    // Add youtube embed to the HTML
-    /* You can get the embed code by right clicking any YT video and selecting
-    'embet code' */
+  
     modal.innerHTML = `
-    <div class="modal">
-    <iframe width="800" height="530" src="https://www.youtube.com/embed/ynHOXOhE0io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="modal" >
+    <iframe src="https://www.youtube.com/embed/ynHOXOhE0io?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>`;
 
     // Show the modal
@@ -170,9 +168,7 @@ modalBtn.addEventListener('click', () => {
 
 // Add click event to the modal bg
 modal.addEventListener('click', () => {
-    // remove youtube embed to the HTML
-    /* this is asimple way to stop the video from playing
-    when you close the modal */
+  
     modal.innerHTML = '';
     // smooth opacity transition
     modal.style.opacity = "0";
@@ -182,3 +178,6 @@ modal.addEventListener('click', () => {
         modal.style.display = "none";
     }, 450);
 });
+
+
+

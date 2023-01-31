@@ -49,15 +49,15 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/iteprevengo-software.png" width="200" height="24" alt="ItePrevengo">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/iteprevengo-software.png" width="250" height="24" alt="ItePrevengo">
 
       </a>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="index.html" class="logo">
             <img src="./assets/images/iteprevengo-software.png" width="160" height="24" alt="ItePrevengo">
           </a>
 
@@ -120,7 +120,7 @@
 
       </nav>
 
-      <a href="#" class="btn btn-primary">Contáctanos</a>
+      <a href="#modal-container" class="btn btn-primary">Contáctanos</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -129,7 +129,39 @@
       <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
+    
   </header>
+
+  
+<!-- Contacto -->
+<div class="modal-container" id="modal-container">
+  <div class="modal-contacto">
+    <a href="#" class="close">&times;</a>
+      
+        <div class="avatar">
+            <a href="#">
+                <img src="./assets/images/contacto.png" alt="">
+            </a>
+            <h2>Herbert Parimango</h2>
+            <h4>Developer</h4>
+        </div>
+        
+        <div class="descripcion">
+          <a href="#" class="close">&times;</a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores molestias sint ea ipsum tempora dolor, nulla eos cumque commodi porro blanditiis autem doloribus dolore laboriosam possimus impedit ipsa accusamus?</p>
+
+            <div class="social">
+                <a href="https://www.facebook.com/ItePrevengo"><ion-icon name="logo-facebook" style="font-size: 24px;"></ion-icon></a>
+                <a href="mailto:consultas@iteprevengo.com?subject=Quiero%20más%20información%20de%20sus%20servicios&body=Hola,%20te%20contacto%20desde%20tu%20WebSite%20y%20me%20interesa%20adquirir%20un%20servicio...!"><ion-icon name="mail-outline" style="font-size: 24px;"></ion-icon></a>
+                <a href="tel:+51943776124"><ion-icon name="call-outline" style="font-size: 24px;"></ion-icon></a>
+                
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=+51943776124&text=Hola, Nececito más información de sus servicios que ofrece en su WebSite!" class="btn btn-outline" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> Contáctame</a>
+        </div>
+      
+  </div>
+</div>
 
 
 
@@ -156,7 +188,7 @@
 
             <div class="btn-wrapper">
 
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="#" class="btn btn-primary">Agendar cita</a>
 
               <!-- <a href="#" class="btn btn-outline">Contact Us</a> -->
 
@@ -178,28 +210,21 @@
   
                     <button class="play-btn" aria-label="play adex intro">
                         <ion-icon name="play" aria-hidden="true"></ion-icon>
-                        <!-- AQUI PONER LOS VIDEOS A REEPRODUCIR. -->
-                        
+                               
                     </button>
-                    <div class="modal-bg"></div>
+                    <div class="modal-bg"></div> <!-- esto solo es para cerrar. -->  
                   </div>
-                  <!-- <div class="modal-bg"></div> -->
+               
 
                 </li>
 
                 <li class="slider-item">
 
-                  <div class="hero-card">
+                  
                     <figure class="img-holder" style="--width: 575; --height: 550;">
                       <img src="./assets/images/slider-2.jpg" width="575" height="550" alt="hero banner"
                         class="img-cover">
                     </figure>
-
-                    <button class="play-btn" aria-label="play adex intro">
-                      <ion-icon name="play" aria-hidden="true"></ion-icon>
-                      <!-- AQUI PONER LOS VIDEOS A REEPRODUCIR. -->
-                    </button>
-                  </div>
 
                 </li>
 
@@ -436,7 +461,7 @@
       <div class="footer-brand">
 
         <a href="#" class="logo">
-          <img src="./assets/images/iteprevengo-software.png" width="200" height="24" alt="ItePrevengo">
+          <img src="./assets/images/iteprevengo-software.png" width="250" height="24" alt="ItePrevengo">
         </a>
 
         <p class="footer-text">
