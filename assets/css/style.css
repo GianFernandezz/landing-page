@@ -648,6 +648,36 @@ body.nav-active { overflow: hidden; }
 
 }
 
+@media (max-width:415px){
+  .modal-contacto{
+    display: block;
+    width: 350px;
+  }
+  .avatar{
+    padding: 20px 50px 5px 30px;
+    border: 0;
+  }
+  .descripcion{
+    padding: 5px 10px 10px 10px;
+    background: var(--iteazul);
+}
+
+@media (max-width:360px){
+  .modal-contacto{
+    display: block;
+    width: 300px;
+    /* margin-top: 1000px; */
+  }
+  .avatar{
+    padding: 20px 20px 5px 10px;
+    border: 0;
+  }
+  .descripcion{
+    padding: 5px 10px 10px 10px;
+    background: var(--iteazul);
+}
+}
+
 
 
 
