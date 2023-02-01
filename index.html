@@ -16,7 +16,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="#" type="#">
+ <link rel="icon" type="image/x-icon" href="./assets/images/iteprevengo.jfif">
 
   <!-- 
     - google font link
@@ -49,7 +49,7 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="index.html" class="logo">
+      <a href="#inicio" class="logo">
         <img src="./assets/images/iteprevengo-software.png" width="250" height="24" alt="ItePrevengo">
 
       </a>
@@ -57,7 +57,7 @@
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="index.html" class="logo">
+          <a href="#inicio" class="logo">
             <img src="./assets/images/iteprevengo-software.png" width="160" height="24" alt="ItePrevengo">
           </a>
 
@@ -69,11 +69,14 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#inicio" class="navbar-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Beneficios</a>
+            <a href="#puntosclaves" class="navbar-link">Presentación</a>
+          </li>
+          <li>
+            <a href="#nosotros" class="navbar-link">Nosotros</a>
           </li>
 
         </ul>
@@ -87,32 +90,32 @@
         <ul class="social-list">
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://www.linkedin.com/company/iteprevengo/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.facebook.com/ItePrevengo" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.iteprevengo.com/software/" class="social-link" target="_blank">
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://api.whatsapp.com/send?phone=+51943776124&text=Hola Herbert, Nececito más información de sus servicios que ofrece en su WebSite!" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
+            <a href="mailto:consultas@iteprevengo.com" class="social-link" target="_blank">
+              <ion-icon name="mail-outline"></ion-icon>
             </a>
           </li>
 
@@ -175,15 +178,15 @@
       -->
 
       <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/test.png')">
+        style="background-image: url('./assets/images/test.png')" id="inicio">
         <div class="container">
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+            <h1 class="h1 hero-title">¿Cómo evitar sanciones por no contar con un comite o supervisor de seguridad y salud?</h1>
 
             <p class="hero-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, velit dicta veritatis voluptatum aut!
+              Aún sin ser un especialista y sin necesidad de un consultor en tu empresa
             </p>
 
             <div class="btn-wrapper">
@@ -258,7 +261,7 @@
         - #ABOUT
       -->
 
-      <section class="about" aria-labelledby="about-label">
+      <section class="about" aria-labelledby="about-label" id="puntosclaves">
         <div class="container">
 
           <figure class="about-banner">
@@ -268,10 +271,10 @@
 
           <div class="about-content">
 
-            <p class="section-subtitle" id="about-label">Pregunta?</p>
+            <p class="section-subtitle" id="about-label">Puntos claves</p>
 
             <h2 class="h2 section-title">
-              Lorem ipsum dolor sit amet, consectetur elit.
+              En esta presentación te explicamos:
             </h2>
 
             <ul>
@@ -283,7 +286,7 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Objetivo</spna>
+                      <spna class="span h5">Los pasos para lograr</spna>
                     </button>
                   </h3>
 
@@ -301,7 +304,7 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Objetivo</spna>
+                      <spna class="span h5">Alternativas de Consultoria</spna>
                     </button>
                   </h3>
 
@@ -319,7 +322,7 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Objetivo</spna>
+                      <spna class="span h5">Software para el Proceso de Elecciones</spna>
                     </button>
                   </h3>
 
@@ -342,88 +345,27 @@
 
 
       <!-- 
-        - #FEATURE
+        - #QUIENES SOMOS
       -->
 
-      <section class="section feature" aria-labelledby="feature-label">
+      <section class="section feature" aria-labelledby="feature-label" id="nosotros">
         <div class="container">
 
           <figure class="feature-banner">
-            <img src="./assets/images/banner2.png" width="800" height="531" loading="lazy" alt="feature banner"
+            <img src="./assets/images/herbert-nuevo.jpg" width="800" height="531" loading="lazy" alt="Herbert"
               class="w-100">
           </figure>
 
           <div class="feature-content">
 
-            <p class="section-subtitle" id="feautre-label">Beneficios</p>
+            <p class="section-subtitle" id="feautre-label">Acerca de nosotros</p>
 
-            <h2 class="h2 section-title">
-              Quisque dapibus risus at magna lobortis, vitae cursus erat consectetur.
-            </h2>
+            <h2 class="h2 section-title">¿Quiénes somos?</h2>
 
             <p class="section-text">
-              Duis neque ligula, tincidunt consequat fermentum sed, maximus nec ex. Cras sit amet interdum augue.
+              Iteprevengo nace en el 2013 con el nombre de P&M HSEQ, de la mano de su fundador y CEO Ing. Herbert Parimango y un equipo de especialistas en prevención de accidentes y enfermedades ocupacionales, con el objetivo de hacer de los centros de trabajo, espacios 100% libres de accidentes. <br> 
+              Hoy, Iteprevengo renueva su compromiso de brindar servicios de soporte para la prevención de accidentes y enfermedades en el trabajo a través de la transformación digital de sus servicios y productos como Software para la gestión de seguridad y salud, Capacitaciones Virtuales, Online y presenciales , Consultorías online y semi presenciales y monitoreos de higiene ocupacional.
             </p>
-
-            <ul class="feature-list">
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nuestros beneficios
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nuestros beneficios
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nuestros beneficios
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nuestros beneficios
-                  </span>
-
-                </div>
-              </li>
-
-            </ul>
 
           </div>
 
@@ -438,7 +380,7 @@
         <div class="container">
 
           <h2 class="h2 section-title">
-            Quisque dapibus risus at magna lobortis, vitae  consectetur.
+            "LA PREVENCIÓN DE ACCIDENTES EN EL TRABAJO NOS UNE"
           </h2>
 
           <a href="https://intranet.tecda.pe/advisory/byadviser?id=3" class="btn btn-primary" target="_blank">Agendar una cita</a>
@@ -462,7 +404,7 @@
 
       <div class="footer-brand">
 
-        <a href="index.html" class="logo">
+        <a href="#inicio" class="logo">
           <img src="./assets/images/iteprevengo-software.png" width="250" height="24" alt="ItePrevengo">
         </a>
 
@@ -473,32 +415,32 @@
         <ul class="social-list">
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.linkedin.com/company/iteprevengo/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/ItePrevengo" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
+            <a href="https://www.iteprevengo.com/software/" class="social-link" target="_blank">
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://api.whatsapp.com/send?phone=+51943776124&text=Hola Herbert, Nececito más información de sus servicios que ofrece en su WebSite!" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
+            <a href="mailto:consultas@iteprevengo.com" class="social-link" target="_blank">
+              <ion-icon name="mail-outline"></ion-icon>
             </a>
           </li>
 
@@ -514,7 +456,7 @@
 
         <li>
           <address class="footer-text">
-            Ubicacíon
+            Urb. Covicorti, Mz.A lote 18, Trujillo, Trujillo 13007, PE
           </address>
         </li>
 
@@ -526,39 +468,38 @@
           <a href="tel:014800947" class="footer-link">
             (01) 480 0947</a>
         </li>
+        <li>
+          <a href="tel:+51943776124" class="footer-link">
+            +51 943 776 124</a>
+        </li>
 
       </ul>
 
       <ul class="footer-list">
 
         <li>
-          <p class="h4 footer-list-title">Learn More</p>
+          <p class="h4 footer-list-title">Empresa</p>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Link</a>
+          <a href="#puntosclaves" class="footer-link">Puntos claves</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Link</a>
+          <a href="#nosotros" class="footer-link">Quiénes Somos</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Link</a>
+          <a href="https://intranet.tecda.pe/advisory/byadviser?id=3" class="footer-link">Agendar una Cita</a>
         </li>
-
-        <li>
-          <a href="#" class="footer-link">Link</a>
-        </li>
-
       </ul>
 
       <div class="footer-list">
 
-        <p class="h4 footer-list-title">Our Newsletter</p>
+        <p class="h4 footer-list-title">Propósito</p>
 
         <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
+          Nuestro propósito es ayudarte a reducir a cero los accidentes y enfermedades producidas en el trabajo, usando herramientas digitales para sus servicios de capacitación, consultoría, supervisión, monitoreos ocupacionales e implementación de la gestión de Seguridad y Salud en el Trabajo
         </p>
 
         
